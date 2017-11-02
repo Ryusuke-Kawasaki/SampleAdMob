@@ -12,6 +12,7 @@
 		939D0DF01FAB03AA008EFFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D0DEE1FAB03AA008EFFB7 /* Main.storyboard */; };
 		939D0DF21FAB03AA008EFFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939D0DF11FAB03AA008EFFB7 /* Assets.xcassets */; };
 		939D0DF51FAB03AA008EFFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939D0DF31FAB03AA008EFFB7 /* LaunchScreen.storyboard */; };
+		939D0DFD1FAB1056008EFFB7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939D0DFC1FAB1056008EFFB7 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,18 @@
 		939D0DF11FAB03AA008EFFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939D0DF41FAB03AA008EFFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		939D0DF61FAB03AA008EFFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939D0DFC1FAB1056008EFFB7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		939D0DFF1FAB114E008EFFB7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		939D0E001FAB116C008EFFB7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		939D0E011FAB117F008EFFB7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		939D0E021FAB11A6008EFFB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		939D0E031FAB11C6008EFFB7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		939D0E041FAB11EC008EFFB7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		939D0E051FAB120B008EFFB7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		939D0E061FAB120B008EFFB7 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		939D0E071FAB1247008EFFB7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		939D0E081FAB125E008EFFB7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		939D0E091FAB126F008EFFB7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939D0DFD1FAB1056008EFFB7 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +54,7 @@
 			children = (
 				939D0DE91FAB03AA008EFFB7 /* SampleAdMob */,
 				939D0DE81FAB03AA008EFFB7 /* Products */,
+				939D0DFE1FAB114E008EFFB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +69,7 @@
 		939D0DE91FAB03AA008EFFB7 /* SampleAdMob */ = {
 			isa = PBXGroup;
 			children = (
+				939D0DFC1FAB1056008EFFB7 /* GoogleMobileAds.framework */,
 				939D0DEA1FAB03AA008EFFB7 /* AppDelegate.swift */,
 				939D0DEC1FAB03AA008EFFB7 /* ViewController.swift */,
 				939D0DEE1FAB03AA008EFFB7 /* Main.storyboard */,
@@ -62,6 +78,24 @@
 				939D0DF61FAB03AA008EFFB7 /* Info.plist */,
 			);
 			path = SampleAdMob;
+			sourceTree = "<group>";
+		};
+		939D0DFE1FAB114E008EFFB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939D0E091FAB126F008EFFB7 /* SystemConfiguration.framework */,
+				939D0E081FAB125E008EFFB7 /* StoreKit.framework */,
+				939D0E071FAB1247008EFFB7 /* MessageUI.framework */,
+				939D0E051FAB120B008EFFB7 /* EventKit.framework */,
+				939D0E061FAB120B008EFFB7 /* EventKitUI.framework */,
+				939D0E041FAB11EC008EFFB7 /* CoreTelephony.framework */,
+				939D0E031FAB11C6008EFFB7 /* CoreMedia.framework */,
+				939D0E021FAB11A6008EFFB7 /* CoreGraphics.framework */,
+				939D0E011FAB117F008EFFB7 /* AVFoundation.framework */,
+				939D0E001FAB116C008EFFB7 /* AudioToolbox.framework */,
+				939D0DFF1FAB114E008EFFB7 /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +310,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PG82HP9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleAdMob",
+				);
 				INFOPLIST_FILE = SampleAdMob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Futurismworks.SampleAdMob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +330,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PG82HP9Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleAdMob",
+				);
 				INFOPLIST_FILE = SampleAdMob/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Futurismworks.SampleAdMob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
